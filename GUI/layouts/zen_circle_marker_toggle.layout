@@ -1,0 +1,54 @@
+PanelWidgetClass ZenCircleToggleRow {
+ visible 1
+ ignorepointer 1
+ size 285 36
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ {
+  ButtonWidgetClass ZenCircleToggle {
+   visible 1
+   ignorepointer 0
+   size 285 36
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style Empty
+   {
+    TextWidgetClass ZenCircleToggleLabel {
+     visible 1
+     ignorepointer 1
+     color 0.8627 0.8627 0.8627 1
+     position 0 0
+     size 240 36
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Normal
+     text ""
+     font "gui/fonts/sdf_MetronBook24"
+     "exact text" 1
+     "exact text size" 14
+     "text valign" center
+    }
+    ImageWidgetClass ZenCircleToggleIcon {
+     visible 1
+     ignorepointer 1
+     color 0.8627 0.8627 0.8627 1
+     position 256 5
+     size 26 26
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     mode blend
+     "src alpha" 1
+     stretch 1
+    }
+   }
+  }
+ }
+}

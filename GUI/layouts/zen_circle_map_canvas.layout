@@ -1,0 +1,10 @@
+CanvasWidgetClass ZenCircleMapCanvas {
+	ignorepointer 1
+	clipchildren 1
+	position 0 0
+	size 100 100
+	hexactpos 1
+	vexactpos 1
+	hexactsize 1
+	vexactsize 1
+}
